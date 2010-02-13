@@ -4,4 +4,8 @@
 *.l[oa]
 *.libs
 *.deps
+debian/files
 debian/linux-firmware
+debian/linux-firmware.debhelper.log
+debian/nic-firmware
+debian/scsi-firmware

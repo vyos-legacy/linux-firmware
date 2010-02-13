@@ -50,15 +50,19 @@ install-indep: build-indep
 	cp LICEN[CS]E* $(license_dir)
 
 binary-indep: install-indep
+	rm -f debian/files
 	dh_testdir
 	dh_testroot
-
 	dh_installchangelogs -i
 	dh_installdocs -i
 	dh_compress -i
 	dh_fixperms -i
 	dh_installdeb -i
-	dh_gencontrol -i
+	if [ -f "../.VYATTA_DEV_BUILD" ]; then \
+		dh_gencontrol -i -- -v999.dev; \
+	else \
+		dh_gencontrol -i; \
+	fi
 	dh_md5sums -i
 	dh_builddeb -i
 
