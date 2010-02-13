@@ -1,0 +1,7 @@
+*~
+.*.swp
+*.[oa]
+*.l[oa]
+*.libs
+*.deps
+debian/linux-firmware

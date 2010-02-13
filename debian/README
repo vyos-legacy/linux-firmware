@@ -1,0 +1,3 @@
+This package is a similar to Ubuntu's linux-firmware package, 
+not Debian's firmware-nonfree.  The firmware comes from Dave
+Woodhouse's linux-firmware git repository.

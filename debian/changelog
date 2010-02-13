@@ -1,0 +1,5 @@
+linux-firmware (1.0) unstable; urgency=low
+
+  * Initial packaging
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Fri, 12 Feb 2010 16:24:22 -0800
