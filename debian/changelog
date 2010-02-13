@@ -1,3 +1,9 @@
+linux-firmware (1.2) unstable; urgency=low
+
+  * more build changes
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Fri, 12 Feb 2010 17:35:30 -0800
+
 linux-firmware (1.1) unstable; urgency=low
 
   * Update list of NIC and SCSI firmware
