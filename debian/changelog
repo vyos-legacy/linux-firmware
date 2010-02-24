@@ -1,3 +1,9 @@
+linux-firmware (1.2+kenwood2) unstable; urgency=low
+
+  * Update to Intel wireless adapter firmware
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Tue, 23 Feb 2010 17:14:42 -0800
+
 linux-firmware (1.2+kenwood1) unstable; urgency=low
 
   * UNRELEASED
