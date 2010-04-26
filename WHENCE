@@ -432,6 +432,14 @@ Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
 
+Driver: AR9271 - Atheros HTC device (USB)
+
+File: ar9271.fw
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
 Driver: CASSINI - Sun Cassini
 
 File: sun/cassini.bin
@@ -654,6 +662,9 @@ Info: v8.24.2.2
 
 File: iwlwifi-1000-3.ucode
 Info: v128.50.3.1
+
+File: iwlwifi-6000-4.ucode
+Info: v9.193.4.1
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1177,7 +1188,44 @@ Driver: radeon - ATI Radeon
 
 File: radeon/R600_rlc.bin
 File: radeon/R700_rlc.bin
+File: radeon/CEDAR_me.bin
+File: radeon/CEDAR_pfp.bin
+File: radeon/CEDAR_rlc.bin
+File: radeon/CYPRESS_me.bin
+File: radeon/CYPRESS_pfp.bin
+File: radeon/CYPRESS_rlc.bin
+File: radeon/JUNIPER_me.bin
+File: radeon/JUNIPER_pfp.bin
+File: radeon/JUNIPER_rlc.bin
+File: radeon/REDWOOD_me.bin
+File: radeon/REDWOOD_pfp.bin
+File: radeon/REDWOOD_rlc.bin
 
 Licence: Redistributable. See LICENSE.radeon_rlc for details.
+
+--------------------------------------------------------------------------
+
+Driver: s2255drv
+
+File: f2255usb.bin
+File: s2250_loader.fw
+File: s2250.fw
+
+Licence:
+  Sensoray grants permission to use and redistribute these firmware
+  files for use with Sensoray devices, but not as a part of the Linux
+  kernel or in any other form which would require these files themselves
+  to be covered by the terms of the GNU General Public License.
+  These firmware files are distributed in the hope that they will be
+  useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+  of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
+Driver rtl8192e - Realtek 8192 PCI wireless driver
+
+Files: RTL8192E/*
+Licence: Redistributable, provided by Realtek in their driver
+         source download.
 
 --------------------------------------------------------------------------
