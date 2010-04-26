@@ -1,3 +1,29 @@
+linux-firmware (1.5) unstable; urgency=low
+
+  [ Greg Kroah-Hartman ]
+  * Add RealTek RTL8192E firmware
+
+  [ Mauro Carvalho Chehab ]
+  * Firmware for Sensoray s2255 webcam drivers
+  * Additional firmwares for Sensoray s2255 webcam drivers
+
+  [ Chatre, Reinette ]
+  * Add firmware for Intel 6000 Series Wi-Fi Adapters
+
+  [ Sujith ]
+  * Add Firmware for Atheros HTC devices
+
+  [ Reinette Chatre ]
+  * Update copyright year for iwlwifi licence
+
+  [ Dave Airlie ]
+  * radeon: add evergreen family microcode.
+
+  [ Stephen Hemminger ]
+  * Merge with upstream repository
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Mon, 26 Apr 2010 09:43:37 -0700
+
 linux-firmware (1.4) unstable; urgency=low
 
   * Update to Intel wireless adapter firmware
