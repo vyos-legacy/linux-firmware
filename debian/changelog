@@ -1,3 +1,9 @@
+linux-firmware (1.6) unstable; urgency=low
+
+  * update firware for bnx2x
+
+ -- Robert Bays <robert@vyatta.com>  Fri, 02 Jul 2010 21:51:19 -0700
+
 linux-firmware (1.5) unstable; urgency=low
 
   [ Greg Kroah-Hartman ]
