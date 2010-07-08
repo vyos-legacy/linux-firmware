@@ -1,3 +1,10 @@
+linux-firmware (1.7) unstable; urgency=low
+
+  * Remove duplicate firmware
+  * Remove all duplicate firmware
+
+ -- Stephen Hemminger <shemminger@lenny.localdomain>  Wed, 07 Jul 2010 17:17:20 -0700
+
 linux-firmware (1.6) unstable; urgency=low
 
   * update firware for bnx2x
