@@ -1,3 +1,9 @@
+linux-firmware (1.8+larkspur1) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Thu, 22 Jul 2010 17:15:05 -0700
+
 linux-firmware (1.8) unstable; urgency=low
 
   * remove old bnx2 firmware
