@@ -8,8 +8,6 @@
 #
 #
 
-# This is the debhelper compatability version to use.
-export DH_COMPAT=4
 export LC_ALL=C
 export SHELL=/bin/bash -e
 
@@ -28,7 +26,8 @@ scsi_firm_dir = $(CURDIR)/debian/scsi-firmware/lib/firmware
 install-indep: build-indep
 	dh_testdir
 	dh_testroot
-	dh_clean -k -i
+	dh_prep
+	dh_clean -i
 
 	install -d $(firm_dir)
 
