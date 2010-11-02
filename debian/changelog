@@ -1,3 +1,10 @@
+linux-firmware (1.13) unstable; urgency=low
+
+  * restore Intel firmware
+  * Don't include IXP firmware
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Tue, 02 Nov 2010 08:50:20 -0700
+
 linux-firmware (1.12) unstable; urgency=low
 
   [ Ken Kawasaki ]
