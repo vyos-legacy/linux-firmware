@@ -1,3 +1,91 @@
+linux-firmware (1.12) unstable; urgency=low
+
+  [ Ken Kawasaki ]
+  * pcnet_cs: add cis of KTI PE520 pcmcia network card
+
+  [ Ben Hutchings ]
+  * Correct various filenames
+  * Use 'File:' field name in front of each filename
+  * Specify drivers using firmware by module/object name
+  * Update firmware from rt2870sta
+  * Add RT3090 firmware from rt2860sta
+  * Add firmware for lgs8g75
+
+  [ Michael Chan ]
+  * bnx2: Update firmwares and update version to 2.0.8.
+
+  [ Vladislav Zolotarov ]
+  * bnx2x: Use firmware 5.2.13
+
+  [ Ben Hutchings ]
+  * Correct attribution and licence of Sierra Wireless CIS files
+
+  [ suraj ]
+  * New Firmware for Atheros bluetooth chipset AR3011
+
+  [ David Woodhouse ]
+  * Fix 'Files' label on RTL8192E
+
+  [ Sujith ]
+  * Update AR9271 firmware.
+
+  [ Michael Chan ]
+  * bnx2: Update 5709 MIPS firmware and version to 2.0.15.
+
+  [ Alex Manoussakis ]
+  * firmware files for Multitech MT9234MU and MT9234ZBA modems
+
+  [ David Woodhouse ]
+  * Fix Multitech MT9234MU and MT9234ZBA firmware
+
+  [ Reinette Chatre ]
+  * Add firmware for Intel Wireless WiFi Link 6250AGN Adapter
+
+  [ Hicham HAOUARI ]
+  * Add firmware for Modems based on Eagle Chipset
+
+  [ Divy Le Ray ]
+  * cxgb3: update FW to 7.10
+
+  [ Ben Hutchings ]
+  * IB/qib: Use request_firmware() to load SD7220 firmware
+
+  [ dann frazier ]
+  * Add firmware for QLogic Intelligent Ethernet (3000 and 3100 Series)
+    Adapters
+
+  [ Sujith ]
+  * ath9k_htc: Add firmware for AR7010
+
+  [ David Woodhouse ]
+  * Remove executable bit from iwlwifi-6050-4.ucode
+  * Remove executable bit from ueagle-atm/DSP4p.bin
+
+  [ Jon Mason ]
+  * vxge: Add driver firmware
+
+  [ Rajkumar Manoharan ]
+  * ath9k_htc: Update AR7010 firmwares
+
+  [ Henry Ptasinski ]
+  * Firmware for brcm80211 driver
+  * Firmware for brcmfmac driver
+
+  [ Inaky Perez-Gonzalez ]
+  * wimax: update WiMAX firmwares for 2.6.35
+
+  [ Mauro Carvalho Chehab ]
+  * Add firmware for Telgent 2300 V4L/DVB driver
+
+  [ Shahar Levi ]
+  * linux-firmware: wl12xx-Add Firmware and NVS files to support Texas
+    Instruments WLAN driver
+
+  [ Stephen Hemminger ]
+  * Update to latest upstream
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Tue, 02 Nov 2010 06:37:25 -0700
+
 linux-firmware (1.11) unstable; urgency=low
 
   * UNRELEASED
