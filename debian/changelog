@@ -1,3 +1,9 @@
+linux-firmware (1.14) unstable; urgency=low
+
+  * Atmel firmware is in separate package
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Mon, 15 Nov 2010 09:27:13 -0800
+
 linux-firmware (1.13) unstable; urgency=low
 
   * restore Intel firmware
