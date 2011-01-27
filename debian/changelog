@@ -1,3 +1,65 @@
+linux-firmware (1.14+mendocino2) unstable; urgency=low
+
+  [ Ben Hutchings ]
+  * Add firmware for VIA VT6656
+
+  [ Larry Finger ]
+  * linux-firmware: Add firmware files for Realtek RTL8712U and
+    RTL8192CE
+
+  [ Jon Mason ]
+  * vxge: update firmware to version 1.8.1
+
+  [ Ameen Rahman ]
+  * Update QLogic phanfw.bin
+
+  [ Dan Williams ]
+  * mwl8335: add duplex firmware for 88w8335 PCI-based parts
+
+  [ Dave Airlie ]
+  * radeon: add support for PALM/SUMO firmwares.
+
+  [ Shahar Levi ]
+  * linux-firmware: wl12xx-Add Access Point Firmware & NVS to the wl12xx
+    Driver
+
+  [ Larry Finger ]
+  * linux-firmware: Add firmware file for RTL8192CU
+
+  [ Bala Shanmugam ]
+  * ath3k-fw: Fix EEPROM radio table issue.
+
+  [ Jon Mason ]
+  * vxge: update PXE firmware to version
+
+  [ Wey-Yi Guy ]
+  * iwlwifi: add new firmware for 6005 devices
+  * iwlwifi: add new firmware for 6030 devices
+  * iwlwifi: add updated firmware for 6050 devices
+
+  [ Hayes Wang ]
+  * rtl_nic: Add firmware for RTL8111D(L)
+
+  [ Dave Airlie ]
+  * radeon: add new NI firmwares.
+
+  [ Wey-Yi Guy ]
+  * iwlwifi: add new firmware to 100 devices
+
+  [ Larry Finger ]
+  * linux-firmware: Add firmware file for Realtek RTL8192SE
+
+  [ Michael Chan ]
+  * linux-firmware: bnx2: Update firmware to 6.0.x.
+  * linux-firmware: bnx2: Update firmware and version
+
+  [ Larry Finger ]
+  * linux-firmware: Add firmware file for Realtek RTL8192DE
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Wed, 26 Jan 2011 20:51:28 -0800
+
 linux-firmware (1.14+mendocino1) unstable; urgency=low
 
   * new branch
