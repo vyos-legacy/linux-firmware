@@ -671,6 +671,18 @@ Info: v9.193.4.1
 File: iwlwifi-6050-4.ucode
 Info: v9.201.4.1
 
+File: iwlwifi-6050-5.ucode
+Info: v41.28.5.1
+
+File: iwlwifi-6000g2a-5.ucode
+Info: v17.168.5.1
+
+File: iwlwifi-6000g2b-5.ucode
+Info: v17.168.5.1
+
+File: iwlwifi-100-5.ucode
+Info: v39.31.5.1
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://intellinuxwireless.org/?n=Downloads
@@ -958,16 +970,23 @@ Driver: bnx2 - Broadcom NetXtremeII
 File: bnx2/bnx2-mips-06-4.6.16.fw
 File: bnx2/bnx2-mips-06-5.0.0.j3.fw
 File: bnx2/bnx2-mips-06-5.0.0.j6.fw
+File: bnx2/bnx2-mips-06-6.0.15.fw
+File: bnx2/bnx2-mips-06-6.2.1.fw
 File: bnx2/bnx2-mips-09-4.6.17.fw
 File: bnx2/bnx2-mips-09-5.0.0.j3.fw
 File: bnx2/bnx2-mips-09-5.0.0.j9.fw
+File: bnx2/bnx2-mips-09-6.0.17.fw
+File: bnx2/bnx2-mips-09-6.2.1.fw
 File: bnx2/bnx2-rv2p-06-4.6.16.fw
 File: bnx2/bnx2-rv2p-06-5.0.0.j3.fw
+File: bnx2/bnx2-rv2p-06-6.0.15.fw
 File: bnx2/bnx2-rv2p-09-4.6.15.fw
 File: bnx2/bnx2-rv2p-09-5.0.0.j3.fw
 File: bnx2/bnx2-rv2p-09-5.0.0.j10.fw
+File: bnx2/bnx2-rv2p-09-6.0.17.fw
 File: bnx2/bnx2-rv2p-09ax-5.0.0.j3.fw
 File: bnx2/bnx2-rv2p-09ax-5.0.0.j10.fw
+File: bnx2/bnx2-rv2p-09ax-6.0.17.fw
 
 Licence:
 
@@ -985,7 +1004,7 @@ Found in hex form in kernel source.
 Driver: netxen_nic - NetXen Multi port (1/10) Gigabit Ethernet NIC
 
 File: phanfw.bin
-Info: v4.0.517
+Info: v4.0.534
 
 Licence: Redistributable. See LICENCE.phanfw for details.
 
@@ -1100,6 +1119,8 @@ Driver: ath3k - DFU Driver for Atheros bluetooth chipset AR3011
 
 File: ath3k-1.fw
 Info: v1.0
+
+Fix EEPROM radio table issue and change PID to 3005
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
 
@@ -1242,6 +1263,19 @@ File: radeon/JUNIPER_rlc.bin
 File: radeon/REDWOOD_me.bin
 File: radeon/REDWOOD_pfp.bin
 File: radeon/REDWOOD_rlc.bin
+File: radeon/PALM_me.bin
+File: radeon/PALM_pfp.bin
+File: radeon/SUMO_rlc.bin
+File: radeon/BARTS_mc.bin
+File: radeon/BARTS_me.bin
+File: radeon/BARTS_pfp.bin
+File: radeon/BTC_rlc.bin
+File: radeon/CAICOS_mc.bin
+File: radeon/CAICOS_me.bin
+File: radeon/CAICOS_pfp.bin
+File: radeon/TURKS_mc.bin
+File: radeon/TURKS_me.bin
+File: radeon/TURKS_pfp.bin
 
 Licence: Redistributable. See LICENSE.radeon_rlc for details.
 
@@ -1374,6 +1408,7 @@ Driver: vxge - Exar X3100 Series 10GbE PCIe I/O Virtualized Server Adapter
 
 File: vxge/X3fw.ncf
 File: vxge/X3fw-pxe.ncf
+Version: 1.8.1
 
 Licence:
 
@@ -1408,13 +1443,18 @@ Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
 
 File: wl1271-fw.bin
 File: wl1271-nvs.bin
+File: wl1271-fw-ap.bin
+File: wl1271-nvs-ap.bin
 
 Licence: See LICENCE.ti-connectivity for details.
 
-	wl1271-fw.bin version 6.1.0.0.343.
-	wl1271-nvs.bin RM version 206.
-	The nvs file includes two parts: radio calibration and
-	ini setting parameters.
+	Station:      wl1271-fw.bin version 6.1.0.0.343 (RM version 206)
+	Access Point: wl1271-fw-ap.bin version 6.2.0.0.30 (RM version 6.2.0.0.6)
+	The nvs file includes two parts:
+	 - radio calibration
+	 - ini setting parameters
+
+	In order to use that files copy them to target FS at /lib/firmware/.
 
 --------------------------------------------------------------------------
 
@@ -1433,3 +1473,64 @@ Licence:
   PURPOSE.
 
 --------------------------------------------------------------------------
+
+Driver: r8712u - Reaktek 802.11n WLAN driver for RTL8712U
+
+File: rtlwifi/rtl8712u.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8192ce - Reaktek 802.11n WLAN driver for RTL8192CE
+
+File: rtlwifi/rtl8192cfw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8192cu - Realtek 802.11n WLAN driver for RTL8192CU
+
+File: rtlwifi/rtl8192cufw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8192se - Realtek 802.11n WLAN driver for RTL8192SE
+
+File: rtlwifi/rtl8192sefw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8192de - Realtek 802.11n WLAN driver for RTL8192DE
+
+File: rtlwifi/rtl8192defw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+
+--------------------------------------------------------------------------
+
+
+Driver: r8169 - RealTek 8169/8168/8101 ethernet driver.
+
+File: rtl_nic/rtl8168d-1.fw
+File: rtl_nic/rtl8168d-2.fw
+
+Licence:
+ * Copyright (c) 2010, Realtek Semiconductor Corporation 
+ *
+ * Permission is hereby granted for the distribution of this firmware
+ * data in hexadecimal or equivalent format, provided this copyright
+ * notice is accompanying it.
+
+--------------------------------------------------------------------------
+
+Driver: vt6656 - VIA VT6656 USB wireless driver
+
+File: vntwusb.fw
+
+Licence: Redistributable. See LICENCE.via_vt6656 for details.
