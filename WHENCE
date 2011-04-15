@@ -629,7 +629,7 @@ File: libertas/usb8388_v5.bin
 File: libertas/usb8388_v9.bin
 File: libertas/usb8682.bin
 
-Licence: Redistributable. See LICENCE.libertas for details.  Extracted from
+Licence: Redistributable. See LICENCE.Marvell for details.  Extracted from
 Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
 
 --------------------------------------------------------------------------
@@ -638,9 +638,23 @@ Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g cards
 
 File: mwl8k/fmimage_8687.fw
 File: mwl8k/helper_8687.fw
+File: mwl8k/fmimage_8366.fw
+File: mwl8k/fmimage_8366_ap-1.fw
+File: mwl8k/helper_8366.fw
 
-Licence: Redistributable. See LICENCE.mwl8k for details.  Downloaded from
-Marvell's "Extranet" with permission.
+Licence: Redistributable. See LICENCE.Marvell for details.  8687 images
+downloaded from Marvell's "Extranet" with permission.  8366 images contributed
+directly by Marvell.
+
+--------------------------------------------------------------------------
+
+Driver: mwifiex - Marvell Wi-Fi fullmac-type 802.11n card
+
+File: mrvl/sd8787_uapsta.bin
+Version: 14.57.5.p44
+
+Licence: Redistributable. See LICENCE.Marvell for details.  Extracted from
+Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
 
 --------------------------------------------------------------------------
 
@@ -658,6 +672,9 @@ Info: v5.4.A.11 (aka v5.4.1.16)
 
 File: iwlwifi-5000-2.ucode
 Info: v8.24.2.12
+
+File: iwlwifi-5000-5.ucode
+Info: v8.83.5.1
 
 File: iwlwifi-5150-2.ucode
 Info: v8.24.2.2
@@ -1276,6 +1293,10 @@ File: radeon/CAICOS_pfp.bin
 File: radeon/TURKS_mc.bin
 File: radeon/TURKS_me.bin
 File: radeon/TURKS_pfp.bin
+File: radeon/CAYMAN_mc.bin
+File: radeon/CAYMAN_me.bin
+File: radeon/CAYMAN_pfp.bin
+File: radeon/CAYMAN_rlc.bin
 
 Licence: Redistributable. See LICENSE.radeon_rlc for details.
 
@@ -1303,15 +1324,6 @@ Driver rtl8192e - Realtek 8192 PCI wireless driver
 File: RTL8192E/*
 Licence: Redistributable, provided by Realtek in their driver
          source download.
-
---------------------------------------------------------------------------
-
-Driver: DFU Driver for Atheros bluetooth chipset AR3011
-
-File: ath3k-2.fw
-Info: v2.0
-
-Licence: Redistributable. See LICENCE.atheros_firmware for details
 
 --------------------------------------------------------------------------
 
@@ -1442,14 +1454,16 @@ Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
 
 File: wl1271-fw.bin
-File: wl1271-nvs.bin
+File: wl1271-fw-2.bin
 File: wl1271-fw-ap.bin
-File: wl1271-nvs-ap.bin
+File: wl1271-nvs.bin
 
 Licence: See LICENCE.ti-connectivity for details.
 
-	Station:      wl1271-fw.bin version 6.1.0.0.343 (RM version 206)
-	Access Point: wl1271-fw-ap.bin version 6.2.0.0.30 (RM version 6.2.0.0.6)
+	Station:      wl1271-fw.bin version 6.1.0.50.350 (RM version 206)
+	Station:      wl1271-fw-2.bin version 6.1.3.50.55
+	Access Point: wl1271-fw-ap.bin version 6.2.0.0.36
+
 	The nvs file includes two parts:
 	 - radio calibration
 	 - ini setting parameters
@@ -1474,19 +1488,19 @@ Licence:
 
 --------------------------------------------------------------------------
 
-Driver: r8712u - Reaktek 802.11n WLAN driver for RTL8712U
+Driver: r8712u - Realtek 802.11n WLAN driver for RTL8712U
 
 File: rtlwifi/rtl8712u.bin
 
-Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
-Driver: rtl8192ce - Reaktek 802.11n WLAN driver for RTL8192CE
+Driver: rtl8192ce - Realtek 802.11n WLAN driver for RTL8192CE
 
 File: rtlwifi/rtl8192cfw.bin
 
-Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
@@ -1494,7 +1508,7 @@ Driver: rtl8192cu - Realtek 802.11n WLAN driver for RTL8192CU
 
 File: rtlwifi/rtl8192cufw.bin
 
-Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
@@ -1502,7 +1516,7 @@ Driver: rtl8192se - Realtek 802.11n WLAN driver for RTL8192SE
 
 File: rtlwifi/rtl8192sefw.bin
 
-Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
@@ -1510,7 +1524,7 @@ Driver: rtl8192de - Realtek 802.11n WLAN driver for RTL8192DE
 
 File: rtlwifi/rtl8192defw.bin
 
-Licence: Redistributable. See LICENCE.rtlwifi_firmware for details.
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
@@ -1534,3 +1548,28 @@ Driver: vt6656 - VIA VT6656 USB wireless driver
 File: vntwusb.fw
 
 Licence: Redistributable. See LICENCE.via_vt6656 for details.
+
+--------------------------------------------------------------------------
+
+Driver: DFU Driver for Atheros bluetooth chipset AR3012
+
+File: ar3k/AthrBT_0x01020001.dfu
+File: ar3k/ramps_0x01020001_26.dfu
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver:Atheros AR300x UART HCI Bluetooth Chip driver
+
+File: ar3k/1020200/ar3kbdaddr.pst
+File: ar3k/1020200/PS_ASIC.pst
+File: ar3k/1020200/RamPatch.txt
+File: ar3k/30101/ar3kbdaddr.pst
+File: ar3k/30101/PS_ASIC.pst
+File: ar3k/30101/RamPatch.txt
+File: ar3k/30000/ar3kbdaddr.pst
+File: ar3k/30000/PS_ASIC.pst
+File: ar3k/30000/RamPatch.txt
+
+Licence: Redistributable. See LICENCE.atheros_firmware for details
