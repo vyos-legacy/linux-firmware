@@ -1,3 +1,107 @@
+linux-firmware (1.18) unstable; urgency=low
+
+  [ Shiang Tu ]
+  * linux-firmware: rt2800pci: rt2800usb: Firmware update
+
+  [ Jothikumar Mothilal ]
+  * linux-firmware: Add patch and sysconfig files
+  * linux-firmware: Add sysconfig file
+
+  [ Luis R. Rodriguez ]
+  * linux-firmware: update Atheros firmware license
+  * linux-firmware: add ath6kl firmware
+
+  [ Henry Ptasinski ]
+  * linux-firmware: Simplified license file for brcm firmware
+  * linux-firmware: Removed codeversion from brcm firmware filenames.
+  * linux-firmware: updated firmware for BCM4313, BCM43224, and BCM43225 chips
+
+  [ Brian Cavagnolo ]
+  * linux-firmware: add APIv2 AP firmware for marvell 8388
+
+  [ Sujith Manoharan ]
+  * Add new firmware for AR9271 devices.
+  * Add new firmware for AR7010 devices.
+
+  [ Sensoray Linux Development ]
+  * s2255: updated firmware f2255usb.bin
+
+  [ Andrew Gallatin ]
+  * linux-firmware: add myri10ge firmware
+
+  [ Shahar Levi ]
+  * linux-firmware: wl12xx- New STA&AP FW support WL128x + Update STA&AP FW for wl127x
+
+  [ Giancarlo Asnaghi ]
+  * STMICROELECTRONICS TDA7706 FW for BC and CB revision
+
+  [ Hayes Wang ]
+  * linux-firmware: Add firmware for RTL8105E
+  * linux-firmware: Add firmware for RTL8168/8111E
+
+  [ Gery Kahn ]
+  * linux-firmware: Initial release for Bluetooth init script
+
+  [ Divy Le Ray ]
+  * linux-firmware: add cxgb4 firmware
+
+  [ Nishant Sarmukadam ]
+  * linux-firmware: update ap firmware for mwl8k 8366 chip
+
+  [ Sucheta Chakraborty ]
+  * Update QLogic phanfw.bin
+
+  [ Hayes Wang ]
+  * linux-firmware: update firmware for RTL8111E
+  * linux-firmware: add new firmware for RTL8168E-VL
+
+  [ Michael Chan ]
+  * linux-firmware: bnx2: Update firmware and version
+
+  [ Ben Hutchings ]
+  * Add source and copyright notice for CIS files from pcmcia-cs
+  * rt2860sta: Use latest firmware for RT3090
+  * rt2870sta: Use latest firmware for RT3070 and RT3071
+
+  [ Dave Airlie ]
+  * firmware: add SUMO + SUMO2 firmwares for llano APUs.
+
+  [ Guy, Wey-Yi W ]
+  * linux-firmware: update for Intel 6000 series Wi-Fi Adapters
+  * iwlwifi: add updated firmware for 1000 devices
+
+  [ Vladislav Zolotarov ]
+  * linux-firmware: Add a new FW 7.0.20.0
+
+  [ Ben Hutchings ]
+  * ath9k_htc: Update firmware to version 1.3
+
+  [ Ariel Elior ]
+  * bnx2x: Adding FW 7.0.23.0
+
+  [ Mauro Carvalho Chehab ]
+  * Add license for Terratec H5 DRX-K firmware
+
+  [ Steven.Li ]
+  * linux-firmware: Update patch and sysconfig files for AR3012
+
+  [ Benny Chuang ]
+  * Qualcomm Atheros updates firmware for WiFi-BT combo module
+  * Qualcomm Atheros adds Bluetooth firmware for WiFi-BT combo module
+
+  [ Guy, Wey-Yi W ]
+  * linux-firmware: update firmware for Intel 6205 Series Wi-Fi Adapters
+
+  [ Cho, Yu-Chen ]
+  * Add ene-ub6250 SD card reader firmware
+
+  [ Dan Williams ]
+  * libertas: add cf8381 firmware v5.11.9p0
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Wed, 03 Aug 2011 15:42:37 -0700
+
 linux-firmware (1.17) unstable; urgency=low
 
   * new branch
