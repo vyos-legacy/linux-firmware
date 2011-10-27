@@ -1,3 +1,31 @@
+linux-firmware (1.19) unstable; urgency=low
+
+  [ Andres Salomon ]
+  * libertas: add OLPC libertas blobs
+
+  [ Shahar Levi ]
+  * linux-firmware: wl12xx: Updated STA & AP FW for WL128x & wl127x
+  * linux-firmware: wl12xx: Updated STA & AP FW for wl12xx-fw-3
+
+  [ Larry Finger ]
+  * rtlwifi: rtl8712u: Upgrade to firmware found in vendor's V2.6.6
+
+  [ Divy Le Ray ]
+  * linux-firmware: Update cxgb4 firmware
+
+  [ Sucheta Chakraborty ]
+  * Update QLogic phanfw.bin
+
+  [ Senthil Balasubramanian ]
+  * linux-firmware: Add new firmware image for ath6kl driver
+
+  [ Dmitry Kravkov ]
+  * bnx2x: Adding FW 7.0.29.0
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Thu, 27 Oct 2011 15:35:47 +0200
+
 linux-firmware (1.18) unstable; urgency=low
 
   [ Shiang Tu ]
