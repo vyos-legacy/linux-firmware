@@ -1,3 +1,9 @@
+linux-firmware (1.20) unstable; urgency=low
+
+  * Add brocade adapter firmware
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Wed, 25 Jan 2012 15:43:14 -0800
+
 linux-firmware (1.19) unstable; urgency=low
 
   [ Andres Salomon ]
