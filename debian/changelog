@@ -1,3 +1,9 @@
+linux-firmware (1.21) unstable; urgency=low
+
+  * Move bna firmware to /lib/firmware
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Thu, 26 Jan 2012 14:37:13 -0800
+
 linux-firmware (1.20) unstable; urgency=low
 
   * Add brocade adapter firmware
