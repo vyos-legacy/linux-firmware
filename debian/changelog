@@ -1,3 +1,9 @@
+linux-firmware (1.21+oxnard1) unstable; urgency=low
+
+  * new branch
+
+ -- Deepti Kulkarni <deepti@vyatta.com>  Sat, 03 Mar 2012 02:22:02 -0800
+
 linux-firmware (1.21) unstable; urgency=low
 
   * Move bna firmware to /lib/firmware
