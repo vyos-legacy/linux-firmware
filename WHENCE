@@ -173,6 +173,8 @@ Source: keyspan_pda/keyspan_pda.S
 File: keyspan_pda/xircom_pgs.fw
 Source: keyspan_pda/xircom_pgs.S
 
+Source: keyspan_pda/Makefile
+
 Licence: GPLv2+
 
 Compiled from original 8051 source into Intel HEX, used in our binary ihex form.
@@ -372,10 +374,12 @@ Driver: dsp56k - Atari DSP56k support
 
 File: dsp56k/bootstrap.bin
 Source: dsp56k/bootstrap.asm
+Source: dsp56k/Makefile
+Source: dsp56k/concat-bootstrap.pl
 
 Licence: GPLv2 or later
 
-DSP56001 assembler, possibly buildable with a56 from 
+DSP56001 assembler, buildable with a56 from
 http://www.zdomain.com/a56.html
 
 --------------------------------------------------------------------------
@@ -513,6 +517,7 @@ File: cxgb3/t3c_psram-1.1.0.bin
 File: cxgb3/t3fw-7.0.0.bin
 File: cxgb3/t3fw-7.1.0.bin
 File: cxgb3/t3fw-7.4.0.bin
+File: cxgb3/t3fw-7.12.0.bin
 
 Licence: GPLv2 or OpenIB.org BSD license, no source visible
 
@@ -537,7 +542,7 @@ Found in hex form in kernel source.
 
 Driver: cxgb4 - Chelsio Terminator 4 1G/10G Ethernet adapter
 
-File: cxgb4/t4fw.bin
+File: cxgb4/t4fw-1.4.16.0.bin
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
@@ -653,7 +658,7 @@ Driver: libertas - Marvell Libertas 802.11b/g cards, OLPC firmware
 File: libertas/lbtf_sdio.bin
 Info: v9.0.7.p4
 
-File: libertas/lbtf_usb.bin
+File: lbtf_usb.bin
 Info: v5.132.3.p1
 
 File: libertas/usb8388_olpc.bin
@@ -732,8 +737,23 @@ Info: v17.168.5.3
 File: iwlwifi-6000g2b-5.ucode
 Info: v17.168.5.1
 
+File: iwlwifi-6000g2b-6.ucode
+Info: v18.168.6.1
+
+File: iwlwifi-135-6.ucode
+Info: v18.168.6.1
+
 File: iwlwifi-100-5.ucode
 Info: v39.31.5.1
+
+File: iwlwifi-105-6.ucode
+Info: v18.168.6.1
+
+File: iwlwifi-2030-6.ucode
+Info: v18.168.6.1
+
+File: iwlwifi-2000-6.ucode
+Info: v18.168.6.1
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1018,6 +1038,15 @@ File: bnx2x-e1-5.2.7.0.fw
 File: bnx2x-e1h-5.2.7.0.fw
 File: bnx2x-e1-5.2.13.0.fw
 File: bnx2x-e1h-5.2.13.0.fw
+File: bnx2x/bnx2x-e1-6.0.34.0.fw
+File: bnx2x/bnx2x-e1h-6.0.34.0.fw
+File: bnx2x/bnx2x-e2-6.0.34.0.fw
+File: bnx2x/bnx2x-e1-6.2.5.0.fw
+File: bnx2x/bnx2x-e1h-6.2.5.0.fw
+File: bnx2x/bnx2x-e2-6.2.5.0.fw
+File: bnx2x/bnx2x-e1-6.2.9.0.fw
+File: bnx2x/bnx2x-e1h-6.2.9.0.fw
+File: bnx2x/bnx2x-e2-6.2.9.0.fw
 File: bnx2x/bnx2x-e2-7.0.20.0.fw
 File: bnx2x/bnx2x-e1-7.0.20.0.fw
 File: bnx2x/bnx2x-e1h-7.0.20.0.fw
@@ -1027,6 +1056,9 @@ File: bnx2x/bnx2x-e1h-7.0.23.0.fw
 File: bnx2x/bnx2x-e2-7.0.29.0.fw
 File: bnx2x/bnx2x-e1-7.0.29.0.fw
 File: bnx2x/bnx2x-e1h-7.0.29.0.fw
+File: bnx2x/bnx2x-e2-7.2.16.0.fw
+File: bnx2x/bnx2x-e1-7.2.16.0.fw
+File: bnx2x/bnx2x-e1h-7.2.16.0.fw
 
 License:
   Copyright (c) 2007-2011 Broadcom Corporation
@@ -1050,12 +1082,14 @@ File: bnx2/bnx2-mips-06-5.0.0.j3.fw
 File: bnx2/bnx2-mips-06-5.0.0.j6.fw
 File: bnx2/bnx2-mips-06-6.0.15.fw
 File: bnx2/bnx2-mips-06-6.2.1.fw
+File: bnx2/bnx2-mips-06-6.2.3.fw
 File: bnx2/bnx2-mips-09-4.6.17.fw
 File: bnx2/bnx2-mips-09-5.0.0.j3.fw
 File: bnx2/bnx2-mips-09-5.0.0.j9.fw
 File: bnx2/bnx2-mips-09-6.0.17.fw
 File: bnx2/bnx2-mips-09-6.2.1.fw
 File: bnx2/bnx2-mips-09-6.2.1a.fw
+File: bnx2/bnx2-mips-09-6.2.1b.fw
 File: bnx2/bnx2-rv2p-06-4.6.16.fw
 File: bnx2/bnx2-rv2p-06-5.0.0.j3.fw
 File: bnx2/bnx2-rv2p-06-6.0.15.fw
@@ -1092,10 +1126,12 @@ Licence: Redistributable. See LICENCE.phanfw for details.
 Driver: dvb-ttpci -- AV7110 cards
 
 File: av7110/bootcode.bin
+Source: av7110/Boot.S
+Source: av7110/Makefile
 
 Licence: GPLv2 or later
 
-ARM assembly source code available at http://www.linuxtv.org/downloads/firmware/Boot.S
+ARM assembly source code from http://www.linuxtv.org/downloads/firmware/Boot.S
 
 --------------------------------------------------------------------------
 
@@ -1172,13 +1208,15 @@ rt3071.bin is a copy of bytes 4096-8191 of rt2870.bin for compatibility.
 
 --------------------------------------------------------------------------
 
-Driver: usbdux/usbduxfast - usbdux data acquisition cards
+Driver: usbdux/usbduxfast/usbduxsigma - usbdux data acquisition cards
 
 File: usbdux_firmware.bin
 File: usbduxfast_firmware.bin
+File: usbduxsigma_firmware.bin
 Source: usbdux/fx2-include.asm
 Source: usbdux/usbduxfast_firmware.asm
 Source: usbdux/usbdux_firmware.asm
+Source: usbdux/usbduxsigma_firmware.asm
 
 Licence: GPLv2. See source code in usbdux/ subdirectory.
 
@@ -1521,7 +1559,9 @@ Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 Driver: brcmfmac - Broadcom 802.11n fullmac wireless LAN driver.
 
 File: brcm/bcm4329-fullmac-4.bin
-File: brcm/bcm4329-fullmac-4.txt
+File: brcm/brcmfmac4329.bin
+File: brcm/brcmfmac4330.bin
+File: brcm/brcmfmac43236b.bin
 
 Licence: Redistributable. See LICENCE.broadcom_bcm43xx for details.
 
@@ -1540,15 +1580,36 @@ Licence: Redistributable. See LICENCE.tda7706-firmware.txt for details.
 Driver: wl12xx - Texas Instruments 802.11 wireless LAN driver
 
 File: wl1271-fw.bin
+Version: 6.1.0.50.350 (STA-only)
 File: wl1271-fw-2.bin
+Version: 6.1.5.50.74 (STA-only)
 File: wl1271-fw-ap.bin
+Version: 6.2.1.0.54 (AP-only)
 File: wl127x-fw-3.bin
+Version: 6.3.0.0.77
 File: wl127x-fw-plt-3.bin
+Version: 6.3.0.0.77 (PLT-only)
+File: wl127x-fw-4-sr.bin
+Version: 6.3.5.0.98 (Single-role)
+File: wl127x-fw-4-mr.bin
+Version: 6.5.2.0.15 (Multi-role)
+File: wl127x-fw-4-plt.bin
+Version: 6.3.5.0.98 (PLT-only)
 
 File: wl128x-fw.bin
+Version: 7.1.5.50.74 (STA-only)
 File: wl128x-fw-ap.bin
+Version: 7.2.1.0.54 (AP-only)
 File: wl128x-fw-3.bin
+Version: 7.3.0.0.77
 File: wl128x-fw-plt-3.bin
+Version: 7.3.0.0.77
+File: wl128x-fw-4-sr.bin
+Version: 7.3.5.0.98 (Single-role)
+File: wl128x-fw-4-mr.bin
+Version: 7.5.2.0.15 (Multi-role)
+File: wl128x-fw-4-plt.bin
+Version: 7.3.5.0.98 (PLT)
 
 File: wl127x-nvs.bin
 File: wl128x-nvs.bin
@@ -1558,28 +1619,23 @@ sl:   wl1271-nvs.bin -> wl127x-nvs.bin
 
 Licence: See LICENCE.ti-connectivity for details.
 
-	Station:      wl1271-fw.bin version 6.1.0.50.350
-	Station:      wl1271-fw-2.bin version 6.1.5.50.74
-	Station:      wl128x-fw.bin version 7.1.5.50.74
-	Access Point: wl1271-fw-ap.bin version 6.2.1.0.54
-	Access Point: wl128x-fw-ap.bin version 7.2.1.0.54
-	Station & Access Point: wl127x-fw-3.bin version Rev 6.3.0.0.77
-	PLT: 			wl127x-fw-3.bin version PLT 6.3.0.0.77
-	Station & Access Point: wl128x-fw-3.bin version Rev 7.3.0.0.77
-	PLT:			wl128x-fw-3.bin version PLT 7.3.0.0.77
-
-The nvs file includes two parts:
+The NVS file includes two parts:
 	 - radio calibration
-	 - ini setting parameters
+	 - HW configuration parameters (aka. INI values)
 
-In order to have correct NVS file for your device NVS tool should be use:
-http://linuxwireless.org/en/users/Drivers/wl12xx/calibrator
+The published NVS files are for testing only.  Every device needs to
+hava a unique NVS which is properly calibrated for best results.  You
+can find more information about NVS generation for your device here:
 
-Example NVS files (not optimal) for wl127x and wl128x includes.
-To use example NVS set symbolic link wl12xx-nvs.bin to one of
-them (depending the chip on the platform)
+http://wireless.kernel.org/en/users/Drivers/wl12xx/calibrator
 
-In order to use that files copy ti-connectivity directory to target FS at
+If you're using a wl127x based device, use a symbolic link called
+wl1271-nvs.bin that links to the wl127x-nvs.bin file.  If you are
+using wl128x, link to wl128x-nvs.bin instead.
+
+The driver expects to find the firmwares under a ti-connectivity
+subdirectory.  So if your system looks for firmwares in /lib/firmware,
+the firmwares for wl12xx chips must be located in
 /lib/firmware/ti-connectivity/.
 
 --------------------------------------------------------------------------
@@ -1660,7 +1716,21 @@ File: rtl_nic/rtl8168d-2.fw
 File: rtl_nic/rtl8105e-1.fw
 File: rtl_nic/rtl8168e-1.fw
 File: rtl_nic/rtl8168e-2.fw
+
 File: rtl_nic/rtl8168e-3.fw
+Version: 0.0.4
+
+File: rtl_nic/rtl8168f-1.fw
+Version: 0.0.4
+
+File: rtl_nic/rtl8168f-2.fw
+Version: 0.0.4
+
+File: rtl_nic/rtl8411-1.fw
+Version: 0.0.2
+
+File: rtl_nic/rtl8402-1.fw
+Version: 0.0.1
 
 Licence:
  * Copyright © 2011, Realtek Semiconductor Corporation
@@ -1813,5 +1883,17 @@ File: ene-ub6250/msp_rdwr.bin
 File: ene-ub6250/ms_rdwr.bin
 
 Licence: Redistributable. See LICENCE.ene_firmware for details.
+
+--------------------------------------------------------------------------
+
+Driver: isci -- Intel C600 SAS controller driver
+
+File: isci/isci_firmware.bin
+Source: isci/create_fw.c
+Source: isci/create_fw.h
+Source: isci/probe_roms.h
+Source: isci/Makefile
+
+Licence: GPLv2
 
 --------------------------------------------------------------------------
