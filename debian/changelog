@@ -1,3 +1,48 @@
+linux-firmware (1.25) unstable; urgency=low
+
+  [ Kalle Valo ]
+  * linux-firmware: ath6k: add AR6003 hw2.1.1 firmware version 3.2.0.144
+  * linux-firmware: ath6k: add firmware for AR6004 hw1.2
+
+  [ Ben Hutchings ]
+  * WHENCE: Fix ti-connectivity firmware filenames
+  * WHENCE: Delete ath6kl's references to directories and non-existent files
+
+  [ Pascal Terjan ]
+  * Add missing : in WHENCE file
+
+  [ Ben Hutchings ]
+  * WHENCE: Add currently undocumented firmware files
+  * WHENCE: List each file on its own line
+
+  [ Barak Witkowski ]
+  * bnx2x: adding fw 7.2.51
+
+  [ Ben Hutchings ]
+  * Remove unused 'mwl8335_duplex.fw'
+
+  [ Chad Dupuis ]
+  * qla2xxx: Update ql2300_fw.bin to version 3.03.28.
+  * qla2xxx: Update ql2322_fw.bin to version 3.03.28.
+  * qla2xxx: Update ql2400_fw.bin to version 5.06.05.
+  * qla2xxx: Update ql2500_fw.bin to version 5.06.05.
+
+  [ Alex Deucher ]
+  * radeon: add new firmware for SI and TN
+
+  [ Xose Vazquez Perez ]
+  * linux-firmware: add README
+
+  [ Costa Yao ]
+  * ar3k: add patch and sysconfig for QCA9564(Aphrodite)
+
+  [ Colin Walters ]
+  * build: Implement minimal GNOME Build API
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Mon, 04 Jun 2012 10:40:32 -0700
+
 linux-firmware (1.24) unstable; urgency=low
 
   [ Hayes Wang ]
