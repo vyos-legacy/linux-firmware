@@ -1,3 +1,15 @@
+linux-firmware (1.26) unstable; urgency=low
+
+  [ Divy Le Ray ]
+  * cxgb4: update firmware to revision 1.4.23.0
+
+  [ Woody Hung ]
+  * rt2800pci:Firmware update v1
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Fri, 15 Jun 2012 09:55:55 -0700
+
 linux-firmware (1.25) unstable; urgency=low
 
   [ Kalle Valo ]
