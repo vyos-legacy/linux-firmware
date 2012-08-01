@@ -1,3 +1,44 @@
+linux-firmware (1.27) unstable; urgency=low
+
+  [ Luciano Coelho ]
+  * wl127x/wl128x: add new firmware series as version 5
+  * wl18xx: add firmware for WiLink8 WLAN chips
+
+  [ Ben Hutchings ]
+  * WHENCE: Move informational text from File to Info fields
+  * WHENCE: Move version strings from Info to Version fields
+
+  [ Larry Finger ]
+  * rtlwifi: rtl8192ce: rtl8192se: rtl8192de: Update to rtl_92ce_92se_92de_linux_mac80211_0004.0816.2011 driver
+
+  [ Costa Yao ]
+  * ar3k: add patch and sysconfig for Qualcomm Atheros AR9462
+
+  [ Hayes Wang ]
+  * rtl_nic: update firmware for RTL8168F
+  * rtl_nic: update firmware for RTL8411
+  * rtl_nic: add new firmware for RTL8106E
+  * rtl_nic: add new firmware for RTL8168G
+
+  [ Peng Chen ]
+  * Add syscfg and patch files for AR3002 2.2.1
+
+  [ Hayes Wang ]
+  * rtl_nic: update firmware for RTL8168G
+
+  [ Larry Finger ]
+  * r8712u: Update to latest firmware
+
+  [ Franky Lin ]
+  * brcm: add bcm4334 firmware for brcmfmac
+
+  [ Peng Chen ]
+  * Add syscfg (different frequency) and patch for AR3002 2.2.1.
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Tue, 31 Jul 2012 18:01:03 -0700
+
 linux-firmware (1.26) unstable; urgency=low
 
   [ Divy Le Ray ]
