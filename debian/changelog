@@ -1,0 +1,658 @@
+linux-firmware (1.28) unstable; urgency=low
+
+  [ Johannes Berg ]
+  * iwlwifi: update firmware for 6205
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Wed, 22 Aug 2012 09:18:23 -0700
+
+linux-firmware (1.27) unstable; urgency=low
+
+  [ Luciano Coelho ]
+  * wl127x/wl128x: add new firmware series as version 5
+  * wl18xx: add firmware for WiLink8 WLAN chips
+
+  [ Ben Hutchings ]
+  * WHENCE: Move informational text from File to Info fields
+  * WHENCE: Move version strings from Info to Version fields
+
+  [ Larry Finger ]
+  * rtlwifi: rtl8192ce: rtl8192se: rtl8192de: Update to rtl_92ce_92se_92de_linux_mac80211_0004.0816.2011 driver
+
+  [ Costa Yao ]
+  * ar3k: add patch and sysconfig for Qualcomm Atheros AR9462
+
+  [ Hayes Wang ]
+  * rtl_nic: update firmware for RTL8168F
+  * rtl_nic: update firmware for RTL8411
+  * rtl_nic: add new firmware for RTL8106E
+  * rtl_nic: add new firmware for RTL8168G
+
+  [ Peng Chen ]
+  * Add syscfg and patch files for AR3002 2.2.1
+
+  [ Hayes Wang ]
+  * rtl_nic: update firmware for RTL8168G
+
+  [ Larry Finger ]
+  * r8712u: Update to latest firmware
+
+  [ Franky Lin ]
+  * brcm: add bcm4334 firmware for brcmfmac
+
+  [ Peng Chen ]
+  * Add syscfg (different frequency) and patch for AR3002 2.2.1.
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Tue, 31 Jul 2012 18:01:03 -0700
+
+linux-firmware (1.26) unstable; urgency=low
+
+  [ Divy Le Ray ]
+  * cxgb4: update firmware to revision 1.4.23.0
+
+  [ Woody Hung ]
+  * rt2800pci:Firmware update v1
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Fri, 15 Jun 2012 09:55:55 -0700
+
+linux-firmware (1.25) unstable; urgency=low
+
+  [ Kalle Valo ]
+  * linux-firmware: ath6k: add AR6003 hw2.1.1 firmware version 3.2.0.144
+  * linux-firmware: ath6k: add firmware for AR6004 hw1.2
+
+  [ Ben Hutchings ]
+  * WHENCE: Fix ti-connectivity firmware filenames
+  * WHENCE: Delete ath6kl's references to directories and non-existent files
+
+  [ Pascal Terjan ]
+  * Add missing : in WHENCE file
+
+  [ Ben Hutchings ]
+  * WHENCE: Add currently undocumented firmware files
+  * WHENCE: List each file on its own line
+
+  [ Barak Witkowski ]
+  * bnx2x: adding fw 7.2.51
+
+  [ Ben Hutchings ]
+  * Remove unused 'mwl8335_duplex.fw'
+
+  [ Chad Dupuis ]
+  * qla2xxx: Update ql2300_fw.bin to version 3.03.28.
+  * qla2xxx: Update ql2322_fw.bin to version 3.03.28.
+  * qla2xxx: Update ql2400_fw.bin to version 5.06.05.
+  * qla2xxx: Update ql2500_fw.bin to version 5.06.05.
+
+  [ Alex Deucher ]
+  * radeon: add new firmware for SI and TN
+
+  [ Xose Vazquez Perez ]
+  * linux-firmware: add README
+
+  [ Costa Yao ]
+  * ar3k: add patch and sysconfig for QCA9564(Aphrodite)
+
+  [ Colin Walters ]
+  * build: Implement minimal GNOME Build API
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Mon, 04 Jun 2012 10:40:32 -0700
+
+linux-firmware (1.24) unstable; urgency=low
+
+  [ Hayes Wang ]
+  * rtl_nic: update firmware for RTL8111E-VL
+  * rtl_nic: add new firmware for RTL8111F
+
+  [ Ben Hutchings ]
+  * libertas_tf_usb: Rename firmware to match path in driver
+
+  [ Hayes Wang ]
+  * rtl_nic: update firmware for RTL8111E-VL
+  * rtl_nic: add new firmware for RTL8111F
+  * rtl_nic: add new firmware for RTL8411
+  * rtl_nic: add new firmware for RTL8402
+
+  [ Ben Hutchings ]
+  * dsp56k: Add makefile for building from source
+  * dvb-ttpci: Add source code and makefile
+  * keyspan_pda: Fix parse error with as31 version 2.3.1
+  * keyspan_pda: Add makefile for building from source
+
+  [ Dmitry Kravkov ]
+  * bnx2x, cnic, bnx2i: use new FW/HSI
+  * bnx2x: Add 57712 support
+
+  [ Vladislav Zolotarov ]
+  * bnx2x: replace FW to 6.2.5
+
+  [ Ben Hutchings ]
+  * WHENCE: bnx2x: Add the version 6.x.y files
+
+  [ Dmitry Kravkov ]
+  * bnx2x: Update firmware to 6.2.9
+
+  [ Michael Chan ]
+  * linux-firmware: bnx2: Update mips firmware to fix iSCSI problems
+
+  [ Ben Hutchings ]
+  * isci: Add firmware blob and sources
+  * cis: Add makefile for building CIS files from text format
+
+  [ Dan Williams ]
+  * firmware/isci: update to oem parameter format v1.3
+
+  [ Tim Gardner ]
+  * iwlwifi: add new firmware for 105 devices
+  * iwlwifi: add new firmware for 135 devcies
+  * iwlwifi: add new firmware for 2000 devices
+  * iwlwifi: add new firmware for 2030 devices
+  * iwlwifi: add new firmware for 6000g2b devices
+
+  [ Ben Hutchings ]
+  * Update licence text for iwlwifi firmware
+
+  [ Franky Lin ]
+  * linux-firmware: brcm: add new bcm4329 firmware for brcmfmac
+  * linux-firmware: brcm: add bcm4330 firmware for brcmfmac
+  * linux-firmware: brcm: remove nvram file for bcm4329 development board
+
+  [ Arend van Spriel ]
+  * linux-firmware: brcm: add firmware for bcm43236 usb device
+
+  [ Divy Le Ray ]
+  * linux-firmware: rename t4fw.bin
+  * linux-firmware: add t4fw-1.4.16.0.bin firmware for cxgb4 driver.
+  * linux-firmware: update cxgb3 driver firmware to revision 7.12.0
+
+  [ Ben Hutchings ]
+  * cxgb4: Delete unused file cxgb4/t4fw-1.3.10.0.bin
+
+  [ Barak Witkowski ]
+  * bnx2x: adding fw 7.2.16
+
+  [ Ben Hutchings ]
+  * Remove execute permissions from various blobs
+
+  [ Bernd Porr ]
+  * usbdux: Add usbduxsigma firmware
+
+  [ Luciano Coelho ]
+  * linux-firmware: update ti-connectivity licence
+  * linux-firmware: ti-connectivity: change fw version info to new style
+  * linux-firmware: ti-connectivity: update wl12xx firmwares
+
+  [ Hayes Wang ]
+  * rtl_nic: update firmware for RTL8111E-VL
+  * rtl_nic: update firmware for RTL8111F
+  * rtl_nic: update firmware for RTL8411
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Thu, 05 Apr 2012 19:41:21 -0700
+
+linux-firmware (1.23) unstable; urgency=low
+
+  * Add missing Broadcom NetExtreme firmware
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Thu, 05 Apr 2012 14:41:05 -0700
+
+linux-firmware (1.22) unstable; urgency=low
+
+  * new branch
+
+ -- Deepti Kulkarni <deepti@vyatta.com>  Sat, 03 Mar 2012 02:24:44 -0800
+
+linux-firmware (1.21) unstable; urgency=low
+
+  * Move bna firmware to /lib/firmware
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Thu, 26 Jan 2012 14:37:13 -0800
+
+linux-firmware (1.20) unstable; urgency=low
+
+  * Add brocade adapter firmware
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Wed, 25 Jan 2012 15:43:14 -0800
+
+linux-firmware (1.19) unstable; urgency=low
+
+  [ Andres Salomon ]
+  * libertas: add OLPC libertas blobs
+
+  [ Shahar Levi ]
+  * linux-firmware: wl12xx: Updated STA & AP FW for WL128x & wl127x
+  * linux-firmware: wl12xx: Updated STA & AP FW for wl12xx-fw-3
+
+  [ Larry Finger ]
+  * rtlwifi: rtl8712u: Upgrade to firmware found in vendor's V2.6.6
+
+  [ Divy Le Ray ]
+  * linux-firmware: Update cxgb4 firmware
+
+  [ Sucheta Chakraborty ]
+  * Update QLogic phanfw.bin
+
+  [ Senthil Balasubramanian ]
+  * linux-firmware: Add new firmware image for ath6kl driver
+
+  [ Dmitry Kravkov ]
+  * bnx2x: Adding FW 7.0.29.0
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Thu, 27 Oct 2011 15:35:47 +0200
+
+linux-firmware (1.18) unstable; urgency=low
+
+  [ Shiang Tu ]
+  * linux-firmware: rt2800pci: rt2800usb: Firmware update
+
+  [ Jothikumar Mothilal ]
+  * linux-firmware: Add patch and sysconfig files
+  * linux-firmware: Add sysconfig file
+
+  [ Luis R. Rodriguez ]
+  * linux-firmware: update Atheros firmware license
+  * linux-firmware: add ath6kl firmware
+
+  [ Henry Ptasinski ]
+  * linux-firmware: Simplified license file for brcm firmware
+  * linux-firmware: Removed codeversion from brcm firmware filenames.
+  * linux-firmware: updated firmware for BCM4313, BCM43224, and BCM43225 chips
+
+  [ Brian Cavagnolo ]
+  * linux-firmware: add APIv2 AP firmware for marvell 8388
+
+  [ Sujith Manoharan ]
+  * Add new firmware for AR9271 devices.
+  * Add new firmware for AR7010 devices.
+
+  [ Sensoray Linux Development ]
+  * s2255: updated firmware f2255usb.bin
+
+  [ Andrew Gallatin ]
+  * linux-firmware: add myri10ge firmware
+
+  [ Shahar Levi ]
+  * linux-firmware: wl12xx- New STA&AP FW support WL128x + Update STA&AP FW for wl127x
+
+  [ Giancarlo Asnaghi ]
+  * STMICROELECTRONICS TDA7706 FW for BC and CB revision
+
+  [ Hayes Wang ]
+  * linux-firmware: Add firmware for RTL8105E
+  * linux-firmware: Add firmware for RTL8168/8111E
+
+  [ Gery Kahn ]
+  * linux-firmware: Initial release for Bluetooth init script
+
+  [ Divy Le Ray ]
+  * linux-firmware: add cxgb4 firmware
+
+  [ Nishant Sarmukadam ]
+  * linux-firmware: update ap firmware for mwl8k 8366 chip
+
+  [ Sucheta Chakraborty ]
+  * Update QLogic phanfw.bin
+
+  [ Hayes Wang ]
+  * linux-firmware: update firmware for RTL8111E
+  * linux-firmware: add new firmware for RTL8168E-VL
+
+  [ Michael Chan ]
+  * linux-firmware: bnx2: Update firmware and version
+
+  [ Ben Hutchings ]
+  * Add source and copyright notice for CIS files from pcmcia-cs
+  * rt2860sta: Use latest firmware for RT3090
+  * rt2870sta: Use latest firmware for RT3070 and RT3071
+
+  [ Dave Airlie ]
+  * firmware: add SUMO + SUMO2 firmwares for llano APUs.
+
+  [ Guy, Wey-Yi W ]
+  * linux-firmware: update for Intel 6000 series Wi-Fi Adapters
+  * iwlwifi: add updated firmware for 1000 devices
+
+  [ Vladislav Zolotarov ]
+  * linux-firmware: Add a new FW 7.0.20.0
+
+  [ Ben Hutchings ]
+  * ath9k_htc: Update firmware to version 1.3
+
+  [ Ariel Elior ]
+  * bnx2x: Adding FW 7.0.23.0
+
+  [ Mauro Carvalho Chehab ]
+  * Add license for Terratec H5 DRX-K firmware
+
+  [ Steven.Li ]
+  * linux-firmware: Update patch and sysconfig files for AR3012
+
+  [ Benny Chuang ]
+  * Qualcomm Atheros updates firmware for WiFi-BT combo module
+  * Qualcomm Atheros adds Bluetooth firmware for WiFi-BT combo module
+
+  [ Guy, Wey-Yi W ]
+  * linux-firmware: update firmware for Intel 6205 Series Wi-Fi Adapters
+
+  [ Cho, Yu-Chen ]
+  * Add ene-ub6250 SD card reader firmware
+
+  [ Dan Williams ]
+  * libertas: add cf8381 firmware v5.11.9p0
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Wed, 03 Aug 2011 15:42:37 -0700
+
+linux-firmware (1.17) unstable; urgency=low
+
+  * new branch
+
+ -- Deepti Kulkarni <deepti@vyatta.com>  Thu, 07 Jul 2011 20:52:56 -0700
+
+linux-firmware (1.16) unstable; urgency=low
+
+  [ Ben Hutchings ]
+  * Add firmware for VIA VT6656
+
+  [ Larry Finger ]
+  * linux-firmware: Add firmware files for Realtek RTL8712U and
+    RTL8192CE
+
+  [ Jon Mason ]
+  * vxge: update firmware to version 1.8.1
+
+  [ Ameen Rahman ]
+  * Update QLogic phanfw.bin
+
+  [ Dan Williams ]
+  * mwl8335: add duplex firmware for 88w8335 PCI-based parts
+
+  [ Dave Airlie ]
+  * radeon: add support for PALM/SUMO firmwares.
+
+  [ Shahar Levi ]
+  * linux-firmware: wl12xx-Add Access Point Firmware & NVS to the wl12xx
+    Driver
+
+  [ Larry Finger ]
+  * linux-firmware: Add firmware file for RTL8192CU
+
+  [ Bala Shanmugam ]
+  * ath3k-fw: Fix EEPROM radio table issue.
+
+  [ Jon Mason ]
+  * vxge: update PXE firmware to version
+
+  [ Wey-Yi Guy ]
+  * iwlwifi: add new firmware for 6005 devices
+  * iwlwifi: add new firmware for 6030 devices
+  * iwlwifi: add updated firmware for 6050 devices
+
+  [ Hayes Wang ]
+  * rtl_nic: Add firmware for RTL8111D(L)
+
+  [ Dave Airlie ]
+  * radeon: add new NI firmwares.
+
+  [ Wey-Yi Guy ]
+  * iwlwifi: add new firmware to 100 devices
+
+  [ Larry Finger ]
+  * linux-firmware: Add firmware file for Realtek RTL8192SE
+
+  [ Michael Chan ]
+  * linux-firmware: bnx2: Update firmware to 6.0.x.
+  * linux-firmware: bnx2: Update firmware and version
+
+  [ Larry Finger ]
+  * linux-firmware: Add firmware file for Realtek RTL8192DE
+
+  [ Uwe Kleine-König ]
+  * WHENCE: fix typos in "Realtek" and the filename containing its
+    licence terms
+
+  [ Bing Zhao ]
+  * linux-firmware: use single license file for Marvell firmwares
+  * linux-firmware: add Marvell SD8787 firmware image
+
+  [ Brian Cavagnolo ]
+  * linux-firmware: add firmware files for Marvell 8366
+
+  [ Wey-Yi Guy ]
+  * iwlwifi: add updated firmware for 5000 devices
+
+  [ Shahar Levi ]
+  * linux-firmware: wl12xx-update STA FW supports 11n BA sessions
+  * linux-firmware: wl12xx-Update STA firmware
+
+  [ Bala Shanmugam ]
+  * linux-firmware: Remove ath3k-2.fw
+  * linux-firmware: Add patch and sysconfig files for AR3012.
+
+  [ Shahar Levi ]
+  * linux-firmware: wl12xx-Update AP Firmware
+
+  [ Vivek Natarajan ]
+  * Update ar9271.fw
+
+  [ Dave Airlie ]
+  * linux-firmware: add cayman firmwares.
+
+  [ Suraj Sumangala ]
+  * linux-firmware: Add Patch and sysconfig files for AR300x
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Fri, 15 Apr 2011 09:39:27 -0700
+
+linux-firmware (1.15) unstable; urgency=low
+
+  * new branch
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Tue, 28 Dec 2010 20:42:53 +0000
+
+linux-firmware (1.14) unstable; urgency=low
+
+  * Atmel firmware is in separate package
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Mon, 15 Nov 2010 09:27:13 -0800
+
+linux-firmware (1.13) unstable; urgency=low
+
+  * restore Intel firmware
+  * Don't include IXP firmware
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Tue, 02 Nov 2010 08:50:20 -0700
+
+linux-firmware (1.12) unstable; urgency=low
+
+  [ Ken Kawasaki ]
+  * pcnet_cs: add cis of KTI PE520 pcmcia network card
+
+  [ Ben Hutchings ]
+  * Correct various filenames
+  * Use 'File:' field name in front of each filename
+  * Specify drivers using firmware by module/object name
+  * Update firmware from rt2870sta
+  * Add RT3090 firmware from rt2860sta
+  * Add firmware for lgs8g75
+
+  [ Michael Chan ]
+  * bnx2: Update firmwares and update version to 2.0.8.
+
+  [ Vladislav Zolotarov ]
+  * bnx2x: Use firmware 5.2.13
+
+  [ Ben Hutchings ]
+  * Correct attribution and licence of Sierra Wireless CIS files
+
+  [ suraj ]
+  * New Firmware for Atheros bluetooth chipset AR3011
+
+  [ David Woodhouse ]
+  * Fix 'Files' label on RTL8192E
+
+  [ Sujith ]
+  * Update AR9271 firmware.
+
+  [ Michael Chan ]
+  * bnx2: Update 5709 MIPS firmware and version to 2.0.15.
+
+  [ Alex Manoussakis ]
+  * firmware files for Multitech MT9234MU and MT9234ZBA modems
+
+  [ David Woodhouse ]
+  * Fix Multitech MT9234MU and MT9234ZBA firmware
+
+  [ Reinette Chatre ]
+  * Add firmware for Intel Wireless WiFi Link 6250AGN Adapter
+
+  [ Hicham HAOUARI ]
+  * Add firmware for Modems based on Eagle Chipset
+
+  [ Divy Le Ray ]
+  * cxgb3: update FW to 7.10
+
+  [ Ben Hutchings ]
+  * IB/qib: Use request_firmware() to load SD7220 firmware
+
+  [ dann frazier ]
+  * Add firmware for QLogic Intelligent Ethernet (3000 and 3100 Series)
+    Adapters
+
+  [ Sujith ]
+  * ath9k_htc: Add firmware for AR7010
+
+  [ David Woodhouse ]
+  * Remove executable bit from iwlwifi-6050-4.ucode
+  * Remove executable bit from ueagle-atm/DSP4p.bin
+
+  [ Jon Mason ]
+  * vxge: Add driver firmware
+
+  [ Rajkumar Manoharan ]
+  * ath9k_htc: Update AR7010 firmwares
+
+  [ Henry Ptasinski ]
+  * Firmware for brcm80211 driver
+  * Firmware for brcmfmac driver
+
+  [ Inaky Perez-Gonzalez ]
+  * wimax: update WiMAX firmwares for 2.6.35
+
+  [ Mauro Carvalho Chehab ]
+  * Add firmware for Telgent 2300 V4L/DVB driver
+
+  [ Shahar Levi ]
+  * linux-firmware: wl12xx-Add Firmware and NVS files to support Texas
+    Instruments WLAN driver
+
+  [ Stephen Hemminger ]
+  * Update to latest upstream
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Tue, 02 Nov 2010 06:37:25 -0700
+
+linux-firmware (1.11) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Thu, 02 Sep 2010 18:26:27 -0700
+
+linux-firmware (1.10) unstable; urgency=low
+
+  * fix squeeze build
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Tue, 31 Aug 2010 16:48:52 -0700
+
+linux-firmware (1.9) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Thu, 22 Jul 2010 17:21:11 -0700
+
+linux-firmware (1.8) unstable; urgency=low
+
+  * remove old bnx2 firmware
+
+ -- Stephen Hemminger <shemminger@lenny.localdomain>  Thu, 08 Jul 2010 09:28:18 -0700
+
+linux-firmware (1.7) unstable; urgency=low
+
+  * Remove duplicate firmware
+  * Remove all duplicate firmware
+
+ -- Stephen Hemminger <shemminger@lenny.localdomain>  Wed, 07 Jul 2010 17:17:20 -0700
+
+linux-firmware (1.6) unstable; urgency=low
+
+  * update firware for bnx2x
+
+ -- Robert Bays <robert@vyatta.com>  Fri, 02 Jul 2010 21:51:19 -0700
+
+linux-firmware (1.5) unstable; urgency=low
+
+  [ Greg Kroah-Hartman ]
+  * Add RealTek RTL8192E firmware
+
+  [ Mauro Carvalho Chehab ]
+  * Firmware for Sensoray s2255 webcam drivers
+  * Additional firmwares for Sensoray s2255 webcam drivers
+
+  [ Chatre, Reinette ]
+  * Add firmware for Intel 6000 Series Wi-Fi Adapters
+
+  [ Sujith ]
+  * Add Firmware for Atheros HTC devices
+
+  [ Reinette Chatre ]
+  * Update copyright year for iwlwifi licence
+
+  [ Dave Airlie ]
+  * radeon: add evergreen family microcode.
+
+  [ Stephen Hemminger ]
+  * Merge with upstream repository
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Mon, 26 Apr 2010 09:43:37 -0700
+
+linux-firmware (1.4) unstable; urgency=low
+
+  * Update to Intel wireless adapter firmware
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Thu, 11 Mar 2010 09:16:28 -0800
+
+linux-firmware (1.3) unstable; urgency=low
+
+  * UNRELEASED
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Wed, 17 Feb 2010 16:11:00 -0800
+
+linux-firmware (1.2) unstable; urgency=low
+
+  * more build changes
+
+ -- An-Cheng Huang <ancheng@vyatta.com>  Fri, 12 Feb 2010 17:35:30 -0800
+
+linux-firmware (1.1) unstable; urgency=low
+
+  * Update list of NIC and SCSI firmware
+  * Add firmware files
+
+ -- Stephen Hemminger <stephen.hemminger@vyatta.com>  Fri, 12 Feb 2010 16:59:31 -0800
+
+linux-firmware (1.0) unstable; urgency=low
+
+  * Initial packaging
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Fri, 12 Feb 2010 16:24:22 -0800
