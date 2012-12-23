@@ -1,3 +1,24 @@
+linux-firmware (1.31) unstable; urgency=low
+
+  [ Peng Chen ]
+  * Update patch and syscfg files for QCA9564.
+
+  [ Pontus Fuchs ]
+  * ar5523: Add firmware for new driver
+
+  [ Arun Kumar K ]
+  * s5p-mfc: Adding firmware files for Samsung MFC device driver
+
+  [ Bing Zhao ]
+  * linux-firmware: add Marvell USB8797-B0 firmware image
+
+  [ Piotr Haber ]
+  * brcm: new firmware version for brcmsmac
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <shemminger@vyatta.com>  Sun, 23 Dec 2012 11:43:01 -0800
+
 linux-firmware (1.30) unstable; urgency=low
 
   [ Daniel Drake ]
