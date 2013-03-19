@@ -429,13 +429,13 @@ Version: 3.03.28 IPX
 File: ql2322_fw.bin
 Version: 3.03.28 IPX
 File: ql2400_fw.bin
-Version: 5.06.05 MID
+Version: 5.08.00 MID
 File: ql2500_fw.bin
-Version: 5.06.05 MIDQ
+Version: 5.08.00 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
-Available from ftp://ftp.qlogic.com/outgoing/linux/firmware/
+Available from http://ldriver.qlogic.com/firmware/ 
 
 --------------------------------------------------------------------------
 
@@ -602,11 +602,12 @@ Driver: tg3 -- Broadcom Tigon3 based gigabit Ethernet cards
 File: tigon/tg3.bin
 File: tigon/tg3_tso.bin
 File: tigon/tg3_tso5.bin
+File: tigon/tg357766.bin
 
 Licence:
  * Firmware is:
  *	Derived from proprietary unpublished source code,
- *	Copyright (C) 2000-2003 Broadcom Corporation.
+ *	Copyright (C) 2000-2013 Broadcom Corporation.
  *
  *	Permission is hereby granted for the distribution of this firmware
  *	data in hexadecimal or equivalent format, provided this copyright
@@ -667,11 +668,11 @@ File: libertas/sd8686_v8.bin
 File: libertas/sd8686_v8_helper.bin
 File: libertas/sd8686_v9.bin
 File: libertas/sd8686_v9_helper.bin
-File: libertas/sd8688.bin
-File: libertas/sd8688_helper.bin
 File: libertas/usb8388_v5.bin
 File: libertas/usb8388_v9.bin
 File: libertas/usb8682.bin
+File: mrvl/sd8688.bin
+File: mrvl/sd8688_helper.bin
 
 Licence: Redistributable. See LICENCE.Marvell for details.  Extracted from
 Linux driver tarballs downloaded from Marvell's "Extranet" with permission.
@@ -695,14 +696,19 @@ Available from http://dev.laptop.org/pub/firmware/libertas/
 
 --------------------------------------------------------------------------
 
-Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g cards
+Driver: mwl8k - Marvell Libertas softmac-type 802.11b/g/n cards
 
 File: mwl8k/fmimage_8687.fw
 File: mwl8k/helper_8687.fw
 File: mwl8k/fmimage_8366.fw
 File: mwl8k/fmimage_8366_ap-1.fw
 File: mwl8k/fmimage_8366_ap-2.fw
+File: mwl8k/fmimage_8366_ap-3.fw
+Version: 5.2.8.16
 File: mwl8k/helper_8366.fw
+
+File: mwl8k/fmimage_8764_ap-1.fw
+Version: 7.4.0.9
 
 Licence: Redistributable. See LICENCE.Marvell for details.  8687 images
 downloaded from Marvell's "Extranet" with permission.  8366 images contributed
@@ -714,6 +720,9 @@ Driver: mwifiex - Marvell Wi-Fi fullmac-type 802.11n card
 
 File: mrvl/sd8787_uapsta.bin
 Version: 14.66.9.p96
+
+File: mrvl/sd8797_uapsta.bin
+Version: 14.66.11.p151
 
 File: mrvl/usb8797_uapsta.bin
 Version: 14.69.11.p179
@@ -1096,6 +1105,9 @@ File: bnx2x/bnx2x-e1h-7.2.51.0.fw
 File: bnx2x/bnx2x-e1-7.8.2.0.fw
 File: bnx2x/bnx2x-e1h-7.8.2.0.fw
 File: bnx2x/bnx2x-e2-7.8.2.0.fw
+File: bnx2x/bnx2x-e1-7.8.17.0.fw
+File: bnx2x/bnx2x-e1h-7.8.17.0.fw
+File: bnx2x/bnx2x-e2-7.8.17.0.fw
 
 License:
   Copyright (c) 2007-2011 Broadcom Corporation
@@ -1811,6 +1823,14 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8188ee - Realtek 802.11n WLAN driver for RTL8188EE
+
+Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_88ee_linux_mac80211_0010.0109.2013
+File: rtlwifi/rtl8188efw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
 
 Driver: r8169 - RealTek 8169/8168/8101 ethernet driver.
 
@@ -1840,6 +1860,9 @@ Version: 0.0.1
 
 File: rtl_nic/rtl8168g-1.fw
 Version: 0.0.3
+
+File: rtl_nic/rtl8168g-2.fw
+Version: 0.0.1
 
 Licence:
  * Copyright © 2011, Realtek Semiconductor Corporation
@@ -2032,5 +2055,17 @@ to be covered by the terms of the GNU General Public License.
 These firmware files are distributed in the hope that they will be
 useful, but WITHOUT ANY WARRANTY; without even the implied warranty
 of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
+Driver: carl9170 -- Atheros AR9170 802.11 draft-n USB driver
+
+File: carl9170-1.fw
+Version: 1.9.6
+Source: carl9170fw/
+
+Downloaded from http://linuxwireless.org/en/users/Drivers/carl9170
+
+Licence: GPLv2. Some build scripts use the New BSD (3-clause) licence.
 
 --------------------------------------------------------------------------
