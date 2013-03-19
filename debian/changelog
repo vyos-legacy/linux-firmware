@@ -1,3 +1,53 @@
+linux-firmware (1.32) unstable; urgency=low
+
+  [ Chad Dupuis ]
+  * qla2xxx: Update ql2400_fw.bin to version 5.08.00.
+  * qla2xxx: Update ql2500_fw.bin to version 5.08.00.
+  * qla2xxx: Update qla2xxx firmware FTP site in WHENCE file.
+
+  [ Xose Vazquez Perez ]
+  * linux-firmware: add carl9170 firmware
+
+  [ Ben Hutchings ]
+  * carl9170: Add full licence texts to BSD-licenced CMake files
+  * carl9170: Fix minimum CMake version
+  * carl9170: Add and check SHA-256 sums for the toolchain tarballs
+  * carl9170: Add checksum during installation, as preferred by the driver
+  * carl9170: Install binary in the parent directory, not /lib/firmware
+  * Revert "carl9170: Add checksum during installation, as preferred by the driver"
+
+  [ Larry Finger ]
+  * rtlwifi/rtl8188ee: Add firmware for new driver
+
+  [ Lubomir Rintel ]
+  * Move sd8688*.bin images into mrvl/ tree
+
+  [ Hayes Wang ]
+  * rtl_nic: update firmware for RTL8168G
+
+  [ Bing Zhao ]
+  * linux-firmware: add Marvell SD8797-B0 firmware image
+  * linux-firmware: update Marvell SD8797-B0 firmware image
+
+  [ Yogesh Ashok Powar ]
+  * linux-firmware: Increment ap firmware API for mwl8k 8366 chip
+
+  [ Ben Hutchings ]
+  * cx231xx/cx23885: Remove incorrect Conexant CX23885 firmware
+
+  [ Dmitry Kravkov ]
+  * bnx2x: update fw to 7.8.17
+
+  [ Nithin Nayak Sujir ]
+  * tg3: Add EEE support firmware for 57766 cards
+
+  [ Yogesh Ashok Powar ]
+  * linux-firmware: Add firmware for mwl8k 8764 chip
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <stephen@networkplumber.org>  Tue, 19 Mar 2013 15:36:17 -0700
+
 linux-firmware (1.31) unstable; urgency=low
 
   [ Peng Chen ]
