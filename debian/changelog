@@ -1,3 +1,23 @@
+linux-firmware (1.33) unstable; urgency=low
+
+  [ Shahed Shaikh ]
+  * netxen_nic: Update QLogic phanfw.bin to version 4.0.590
+  * netxen_nic: Add FTP location of phanfw.bin in WHENCE file
+
+  [ Ian Minett ]
+  * linux-firmware: Add firmware files for Creative CA0132 HD-audio codec
+
+  [ Alex Deucher ]
+  * radeon: add ucode for OLAND GPUs
+  * radeon: add updated ucode for UVD
+
+  [ Ben Hutchings ]
+  * Fix formatting of LICENCE.ca0132
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <shemming@brocade.com>  Sat, 27 Apr 2013 13:00:47 -0700
+
 linux-firmware (1.32) unstable; urgency=low
 
   [ Chad Dupuis ]
