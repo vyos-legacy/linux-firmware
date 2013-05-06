@@ -1,3 +1,21 @@
+linux-firmware (1.34) unstable; urgency=low
+
+  [ Tedd Ho-Jeong An ]
+  * Add Intel Bluetooth firmware patch files
+
+  [ Luciano Coelho ]
+  * wl127x/wl128x: update firmwares
+  * wl18xx: add version 2 of the wl18xx firmware
+  * wl18xx: add default configuration binary
+
+  [ Hayes Wang ]
+  * rtl_nic: Add firmware rtl8168g-3
+  * rtl_nic: add firmware rtl8106e-2
+
+  [ Stephen Hemminger ]
+
+ -- Stephen Hemminger <shemming@brocade.com>  Mon, 06 May 2013 08:03:37 -0700
+
 linux-firmware (1.33) unstable; urgency=low
 
   [ Shahed Shaikh ]
