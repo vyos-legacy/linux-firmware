@@ -1,3 +1,9 @@
+linux-firmware (1.29+vyos2+lithium1) unstable; urgency=low
+
+  * New branch
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Sun, 30 Nov 2014 21:29:32 +0000
+ 
 linux-firmware (1.29+vyos1+helium3) unstable; urgency=low
 
   [ Alain Lamar ]
