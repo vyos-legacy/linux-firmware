@@ -1,3 +1,12 @@
+linux-firmware (1.29+vyos1+helium3) unstable; urgency=low
+
+  [ Alain Lamar ]
+  * Added firmware for the Realtek RTL8723AE wifi card
+
+  [ Alex Harpin ]
+
+ -- Alex Harpin <development@landsofshadow.co.uk>  Sun, 30 Nov 2014 21:06:54 +0000
+ 
 linux-firmware (1.29+vyos1+helium2) unstable; urgency=low
 
   [ Alex Harpin ]
