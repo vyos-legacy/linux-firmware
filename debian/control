@@ -1,7 +1,7 @@
 Source: linux-firmware
 Section: misc
 Priority: optional
-Maintainer: Vyatta Package Maintainers <maintainers@vyatta.com>
+Maintainer: VyOS Package Maintainers <maintainers@vyos.net>
 Standards-Version: 3.6.1
 Build-Depends: debhelper (>= 5), rsync
 Vcs-Git: git://git.kernel.org/pub/scm/linux/kernel/git/dwmw2/linux-firmware.git

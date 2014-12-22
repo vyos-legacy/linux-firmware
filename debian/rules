@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 #
-# debian/rules for Vyatta linux-firmware
-#  based on Ubuntu package
+# debian/rules for VyOS linux-firmware, originally from Vyatta,
+# based on the Ubuntu package.
 # Use this however you want, just give credit where credit is due.
 #
 # Copyright (c) 2008 Ben Collins <bcollins@ubuntu.com>
