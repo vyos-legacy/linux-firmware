@@ -1,3 +1,13 @@
+linux-firmware (1.29+vyos1+helium4) unstable; urgency=low
+
+  [ arndttob ]
+  * Support for new Intel Wi-Fi devices
+  * IWLWIFI Firmware Updates
+
+  [ Daniil Baturin ]
+
+ -- Daniil Baturin <daniil@baturin.org>  Fri, 27 Feb 2015 21:09:36 +0100
+
 linux-firmware (1.29+vyos1+helium3) unstable; urgency=low
 
   [ Alain Lamar ]
